@@ -1,1 +1,39 @@
-hello world
+version: 1
+
+purpose: >
+
+  This file is Heather's starting point for session synchronization
+
+  and project orientation.
+
+startup:
+
+  preferred_method:
+
+    - Open the GitHub repository "alexmiller63/start" directly.
+
+    - Read start.yaml from the repository root.
+
+    - Follow the instructions in this file before relying on conversational memory.
+
+    - Read projects.yaml from the repository root for project information.
+
+  fallback_method:
+
+    - If direct repository access is unavailable, use GitHub repository search to locate "alexmiller63/start".
+
+    - Once located, open the repository directly and read start.yaml.
+
+rules:
+
+  - Direct repository access is preferred over search.
+
+  - Search is a navigation fallback, not the normal way to inspect repository contents.
+
+  - Treat start.yaml as the authoritative bootstrap entry point.
+
+  - Treat projects.yaml as the project registry.
+
+  - Do not assume that remembered project state is current when repository state can be checked.
+
+projects_file: projects.yaml
