@@ -10,17 +10,17 @@ startup:
 
   preferred_method:
 
-    - Open the GitHub repository named "start" directly.
+    - Open the GitHub repository "alexmiller63/start" directly.
 
-    - Read startup.yaml from the repository root.
+    - Read start.yaml from the repository root.
 
     - Follow the instructions in this file before relying on conversational memory.
 
   fallback_method:
 
-    - If direct repository access is unavailable, use GitHub repository search to locate "start".
+    - If direct repository access is unavailable, use GitHub repository search to locate "alexmiller63/start".
 
-    - Once located, open the repository directly and read startup.yaml.
+    - Once located, open the repository directly and read start.yaml.
 
 rules:
 
@@ -28,7 +28,7 @@ rules:
 
   - Search is a navigation fallback, not the normal way to inspect repository contents.
 
-  - Treat startup.yaml as the authoritative entry point for locating other project repositories.
+  - Treat start.yaml as the authoritative entry point for locating other project repositories.
 
   - Do not assume that remembered project state is current when repository state can be checked.
 
