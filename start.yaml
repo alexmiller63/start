@@ -16,6 +16,8 @@ startup:
 
     - Follow the instructions in this file before relying on conversational memory.
 
+    - Read projects.yaml from the repository root for project information.
+
   fallback_method:
 
     - If direct repository access is unavailable, use GitHub repository search to locate "alexmiller63/start".
@@ -28,9 +30,11 @@ rules:
 
   - Search is a navigation fallback, not the normal way to inspect repository contents.
 
-  - Treat start.yaml as the authoritative entry point for locating other project repositories.
+  - Treat start.yaml as the authoritative bootstrap entry point.
+
+  - Treat projects.yaml as the project registry.
 
   - Do not assume that remembered project state is current when repository state can be checked.
 
-projects: {}
+projects_file: projects.yaml
 
