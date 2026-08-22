@@ -4,3 +4,28 @@ projects:
 
     repository: alexmiller63/star-almanack
 
+  health_information:
+
+    title: Health Information
+
+    repository: alexmiller63/health-information
+
+    startup:
+
+      trigger: "Good morning, Heather"
+
+      instructions:
+
+        - Open the Health Information repository directly.
+
+        - Read health-routine.yaml.
+
+        - Read meds.yaml.
+
+        - Use those files to guide the morning health routine.
+
+        - Treat health-log.md in this repository as the Daily Health Log.
+
+        - Do not store the Daily Health Log in the Start repository.
+
+        - Record actual daily health information in health-log.md according to the conventions in health-routine.yaml.
