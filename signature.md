@@ -8,7 +8,7 @@ Regards,
 Alexander Ferrari Miller
 3549 North D Street
 San Bernardino, California 92405
-323-681-7588
+(323) 681-7588
 Alexander.Ferrari.Miller@gmail.com
 (Legacy) alex.miller.boston@gmail.com
 
