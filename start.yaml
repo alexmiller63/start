@@ -18,6 +18,8 @@ startup:
 
     - Read projects.yaml from the repository root for project information.
 
+    - Read signature.md from the repository root for Alexander's canonical Gmail signature.
+
   fallback_method:
 
     - If direct repository access is unavailable, use GitHub repository search to locate "alexmiller63/start".
@@ -34,7 +36,14 @@ rules:
 
   - Treat projects.yaml as the project registry.
 
+  - Treat signature.md as Alexander's canonical Gmail signature.
+
+  - When creating an outgoing Gmail draft for Alexander, append the contents of signature.md verbatim unless Alexander explicitly instructs otherwise.
+
+  - Do not assume that Gmail will automatically add Alexander's configured signature to drafts created through the Gmail connection.
+
   - Do not assume that remembered project state is current when repository state can be checked.
 
 projects_file: projects.yaml
 
+signature_file: signature.md
