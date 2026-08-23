@@ -1,0 +1,3 @@
+gmail:
+  signature_file: "signature.md"
+  signature_policy: "Use the signature in signature.md verbatim for outgoing Gmail drafts unless Alexander explicitly instructs otherwise."
