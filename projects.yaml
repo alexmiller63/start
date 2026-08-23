@@ -12,7 +12,7 @@ projects:
 
     startup:
 
-      trigger: "Good morning, Heather"
+      trigger: "Heather, start"
 
       instructions:
 
