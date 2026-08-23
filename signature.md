@@ -12,8 +12,6 @@ San Bernardino, California 92405
 Alexander.Ferrari.Miller@gmail.com
 (Legacy) alex.miller.boston@gmail.com
 
-
-
 Facebook: https://www.facebook.com/alexander.ferrari.miller
 Instagram: https://www.instagram.com/alexander.ferrari.miller/
 TikTok: https://www.tiktok.com/@alexander.ferrari.miller
