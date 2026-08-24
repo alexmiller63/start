@@ -6,6 +6,7 @@ Use the following signature verbatim for outgoing Gmail drafts created for Alexa
 Regards,
 
 Alexander Ferrari Miller
+
 3549 North D Street
 San Bernardino, California 92405-2103
 +1 (323) 681-7588
