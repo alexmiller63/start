@@ -20,7 +20,7 @@ TikTok: https://www.tiktok.com/@alexander.ferrari.miller
 YouTube: https://www.youtube.com/@alexander.ferrari.miller
 LinkedIn: https://www.linkedin.com/in/alexander-ferrari-miller/
 Snapchat: https://www.snapchat.com/add/afmsanbern
-X: @AFMSanBern
+X: https://x.com/afmsanbern — @AFMSanBern
 WhatsApp: https://wa.me/13236817588 — +1 (323) 681-7588
-Zello: SantaAlex63
+Zello: https://zello.com/ — SantaAlex63
 ```
