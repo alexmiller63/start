@@ -21,6 +21,6 @@ YouTube: https://www.youtube.com/@alexander.ferrari.miller
 LinkedIn: https://www.linkedin.com/in/alexander-ferrari-miller/
 Snapchat: https://www.snapchat.com/add/afmsanbern
 X: @AFMSanBern
-WhatsApp: https://wa.me/13236817588
+WhatsApp: https://wa.me/13236817588 — +1 (323) 681-7588
 Zello: SantaAlex63
 ```
