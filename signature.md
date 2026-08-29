@@ -12,7 +12,7 @@ The approved signature has exactly three cells:
 
 1. Upper left: Alexander's actual optimized Professional-page headshot.
 2. Upper right: identity and contact information.
-3. Lower full width: social links, arranged 5 entries on the first row and 4 on the second row for mobile Gmail.
+3. Lower full width: social links, arranged 5 entries on the first row and 5 on the second row for mobile Gmail.
 
 The upper section is frozen. Do not change its sizing, typography, line breaks, or spacing unless Alexander explicitly requests a change.
 
@@ -29,9 +29,9 @@ The address must remain on exactly these two lines:
 
 For WhatsApp, the displayed phone number is plain text and must not be intentionally turned into a telephone link. The wa.me URL is the clickable WhatsApp link.
 
-All visible social URLs must retain their full leading `https://`. Use three display lines per social entry so long identifiers are never broken inside a word. For X and WhatsApp, preserve the separate handle/phone line and split only the visible URL as needed; do not substitute or reorder those values. Zello must preserve the separate `SantaAlex63` handle line, with `https://zello.com/` displayed as a single line beneath it. The long third-line identifiers in the first 5 social columns use 6.5px text so they remain within their columns on mobile Gmail.
+All visible social URLs must retain their full leading `https://`. Preserve the approved display line breaks below so long identifiers remain within their columns on mobile Gmail. The long identifier lines use 6.5px text where specified. TikTok and YouTube remain lowercase. LinkedIn, Snapchat, and X use the verified capitalization shown below.
 
-Pearlsom is not yet included. Do not add `pearlsom.com` until Alexander explicitly says it is ready.
+Pearlsom is approved and is social/contact entry #1. Its visible layout is exactly five lines: `Pearlsom`, `(Beta)`, `https://`, `pearlsom.com/`, `Alexander.Ferrari.Miller`.
 
 ## Approved Gmail HTML implementation
 
@@ -58,19 +58,20 @@ Pearlsom is not yet included. Do not add `pearlsom.com` until Alexander explicit
     <td colspan="2" style="border-top:2px solid #10244a;padding-top:10px;">
       <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;font-family:Arial,Helvetica,sans-serif;color:#10244a;font-size:7px;text-align:center;border-collapse:collapse;table-layout:fixed;">
         <tr>
-          <td width="20%" valign="top" style="padding:4px 1px;"><b style="font-size:8px;">Facebook</b><br><a href="https://www.facebook.com/alexander.ferrari.miller" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://www.</span><br><span style="white-space:nowrap;">facebook.com/</span><br><span style="white-space:nowrap;font-size:6.5px;">alexander.ferrari.miller</span></a></td>
-          <td width="20%" valign="top" style="padding:4px 1px;"><b style="font-size:8px;">Instagram</b><br><a href="https://www.instagram.com/alexander.ferrari.miller/" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://www.</span><br><span style="white-space:nowrap;">instagram.com/</span><br><span style="white-space:nowrap;font-size:6.5px;">alexander.ferrari.miller/</span></a></td>
+          <td width="20%" valign="top" style="padding:4px 1px;"><b style="font-size:8px;">Pearlsom</b><br><b style="font-size:7px;">(Beta)</b><br><a href="https://pearlsom.com/Alexander.Ferrari.Miller" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://</span><br><span style="white-space:nowrap;">pearlsom.com/</span><br><span style="white-space:nowrap;font-size:6.5px;">Alexander.Ferrari.Miller</span></a></td>
+          <td width="20%" valign="top" style="padding:4px 1px;"><b style="font-size:8px;">Facebook</b><br><a href="https://www.facebook.com/Alexander.Ferrari.Miller" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://www.</span><br><span style="white-space:nowrap;">facebook.com/</span><br><span style="white-space:nowrap;font-size:6.5px;">Alexander.Ferrari.Miller</span></a></td>
+          <td width="20%" valign="top" style="padding:4px 1px;"><b style="font-size:8px;">Instagram</b><br><a href="https://www.instagram.com/Alexander.Ferrari.Miller/" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://www.</span><br><span style="white-space:nowrap;">instagram.com/</span><br><span style="white-space:nowrap;font-size:6.5px;">Alexander.Ferrari.Miller/</span></a></td>
           <td width="20%" valign="top" style="padding:4px 1px;"><b style="font-size:8px;">TikTok</b><br><a href="https://www.tiktok.com/@alexander.ferrari.miller" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://www.</span><br><span style="white-space:nowrap;">tiktok.com/</span><br><span style="white-space:nowrap;font-size:6.5px;">@alexander.ferrari.miller</span></a></td>
           <td width="20%" valign="top" style="padding:4px 1px;"><b style="font-size:8px;">YouTube</b><br><a href="https://www.youtube.com/@alexander-ferrari-miller" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://www.</span><br><span style="white-space:nowrap;">youtube.com/</span><br><span style="white-space:nowrap;font-size:6.5px;">@alexander-ferrari-miller</span></a></td>
-          <td width="20%" valign="top" style="padding:4px 1px;"><b style="font-size:8px;">LinkedIn</b><br><a href="https://www.linkedin.com/in/alexander-ferrari-miller/" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://www.</span><br><span style="white-space:nowrap;">linkedin.com/in/</span><br><span style="white-space:nowrap;font-size:6.5px;">alexander-ferrari-miller/</span></a></td>
         </tr>
       </table>
       <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;font-family:Arial,Helvetica,sans-serif;color:#10244a;font-size:7px;text-align:center;border-collapse:collapse;table-layout:fixed;">
         <tr>
-          <td width="25%" valign="top" style="padding:9px 1px 4px 1px;"><b style="font-size:8px;">Snapchat</b><br><a href="https://www.snapchat.com/add/afmsanbern" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://www.</span><br><span style="white-space:nowrap;">snapchat.com/add/</span><br><span style="white-space:nowrap;">afmsanbern</span></a></td>
-          <td width="25%" valign="top" style="padding:9px 1px 4px 1px;"><b style="font-size:8px;">X</b><br><span style="white-space:nowrap;">@AFMSanBern</span><br><a href="https://x.com/afmsanbern" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://x.com/</span><br><span style="white-space:nowrap;">afmsanbern</span></a></td>
-          <td width="25%" valign="top" style="padding:9px 1px 4px 1px;"><b style="font-size:8px;">WhatsApp</b><br><span style="white-space:nowrap;">+1 (323) 681-7588</span><br><a href="https://wa.me/13236817588" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://wa.me/</span><br><span style="white-space:nowrap;">13236817588</span></a></td>
-          <td width="25%" valign="top" style="padding:9px 1px 4px 1px;"><b style="font-size:8px;">Zello</b><br><span style="white-space:nowrap;">SantaAlex63</span><br><a href="https://zello.com/" style="color:#10244a;text-decoration:none;white-space:nowrap;">https://zello.com/</a></td>
+          <td width="20%" valign="top" style="padding:9px 1px 4px 1px;"><b style="font-size:8px;">LinkedIn</b><br><a href="https://www.linkedin.com/in/Alexander-Ferrari-Miller/" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://www.</span><br><span style="white-space:nowrap;">linkedin.com/in/</span><br><span style="white-space:nowrap;font-size:6.5px;">Alexander-Ferrari-Miller/</span></a></td>
+          <td width="20%" valign="top" style="padding:9px 1px 4px 1px;"><b style="font-size:8px;">Snapchat</b><br><a href="https://www.snapchat.com/add/AFMSanBern" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://www.</span><br><span style="white-space:nowrap;">snapchat.com/add/</span><br><span style="white-space:nowrap;">AFMSanBern</span></a></td>
+          <td width="20%" valign="top" style="padding:9px 1px 4px 1px;"><b style="font-size:8px;">X</b><br><span style="white-space:nowrap;">@AFMSanBern</span><br><a href="https://x.com/AFMSanBern" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://x.com/</span><br><span style="white-space:nowrap;">AFMSanBern</span></a></td>
+          <td width="20%" valign="top" style="padding:9px 1px 4px 1px;"><b style="font-size:8px;">WhatsApp</b><br><span style="white-space:nowrap;">+1 (323) 681-7588</span><br><a href="https://wa.me/13236817588" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://wa.me/</span><br><span style="white-space:nowrap;">13236817588</span></a></td>
+          <td width="20%" valign="top" style="padding:9px 1px 4px 1px;"><b style="font-size:8px;">Zello</b><br><span style="white-space:nowrap;">SantaAlex63</span><br><a href="https://zello.com/" style="color:#10244a;text-decoration:none;white-space:nowrap;">https://zello.com/</a></td>
         </tr>
       </table>
     </td>
@@ -92,14 +93,15 @@ https://AlexanderFerrariMiller.com
 Alexander.Ferrari.Miller@gmail.com
 (Legacy) alex.miller.boston@gmail.com
 
-Facebook: https://www.facebook.com/alexander.ferrari.miller
-Instagram: https://www.instagram.com/alexander.ferrari.miller/
+Pearlsom (Beta): https://pearlsom.com/Alexander.Ferrari.Miller
+Facebook: https://www.facebook.com/Alexander.Ferrari.Miller
+Instagram: https://www.instagram.com/Alexander.Ferrari.Miller/
 TikTok: https://www.tiktok.com/@alexander.ferrari.miller
 YouTube: https://www.youtube.com/@alexander-ferrari-miller
-LinkedIn: https://www.linkedin.com/in/alexander-ferrari-miller/
-Snapchat: https://www.snapchat.com/add/afmsanbern
+LinkedIn: https://www.linkedin.com/in/Alexander-Ferrari-Miller/
+Snapchat: https://www.snapchat.com/add/AFMSanBern
 X: @AFMSanBern
-X: https://x.com/afmsanbern
+X: https://x.com/AFMSanBern
 WhatsApp: +1 (323) 681-7588
 WhatsApp: https://wa.me/13236817588
 Zello: SantaAlex63
