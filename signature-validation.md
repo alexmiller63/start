@@ -2,10 +2,11 @@
 
 Validated August 29, 2026.
 
-## Link behavior
+## Final link behavior
 
-- In Gmail Compose, links may be visible but not clickable.
-- In Sent messages, the links are clickable.
-- This behavior is considered a PASS for the approved signature.
+- In Gmail Compose, the links work.
+- In Sent messages, the links work.
+- Final end-to-end test: PASS.
+- This is the approved working signature baseline.
 
-Do not reject an otherwise correct signature solely because links are not clickable while composing.
+Preserve this version as the known-good reference. Do not change the signature implementation unless Alexander explicitly approves a new change.
