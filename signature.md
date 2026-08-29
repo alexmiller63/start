@@ -14,7 +14,7 @@ The approved signature has exactly three cells:
 2. Upper right: identity and contact information.
 3. Lower full width: social links, arranged 5 entries on the first row and 5 on the second row for mobile Gmail.
 
-The upper section is frozen. Do not change its sizing, typography, line breaks, or spacing unless Alexander explicitly requests a change.
+The upper section is frozen except for explicitly approved changes. The upper-right contact block uses very tiny 9×9 px monochrome icons for address, phone, and both email lines. Do not change its sizing, typography, line breaks, or spacing unless Alexander explicitly requests a change.
 
 The portrait must be Alexander's actual optimized Professional-page headshot:
 
@@ -45,12 +45,12 @@ Pearlsom is approved and is social/contact entry #1. Its visible layout is exact
       <div style="font-size:20px;font-weight:700;line-height:1.15;white-space:nowrap;margin:0 0 6px 0;">Alexander Ferrari Miller</div>
       <div style="font-size:11px;font-weight:700;line-height:1.35;margin:0 0 10px 0;">Professional of Many Hats • Scientist • Artist • Author • Problem Solver</div>
       <div style="font-size:11px;line-height:1.5;">
-        3549 North D Street<br>
-        San Bernardino, CA 92405-2103<br>
-        +1 (323) 681-7588<br>
+        <img src="https://AlexanderFerrariMiller.com/images/signature-icons/address.svg" alt="Address" width="9" height="9" style="display:inline-block;width:9px;height:9px;border:0;vertical-align:-1px;margin-right:4px;">3549 North D Street<br>
+        <span style="display:inline-block;width:13px;"></span>San Bernardino, CA 92405-2103<br>
+        <img src="https://AlexanderFerrariMiller.com/images/signature-icons/phone.svg" alt="Phone" width="9" height="9" style="display:inline-block;width:9px;height:9px;border:0;vertical-align:-1px;margin-right:4px;">+1 (323) 681-7588<br>
         <a href="https://AlexanderFerrariMiller.com" style="color:#10244a;text-decoration:none;">AlexanderFerrariMiller.com</a><br>
-        <a href="mailto:Alexander.Ferrari.Miller@gmail.com" style="color:#10244a;text-decoration:none;">Alexander.Ferrari.Miller@gmail.com</a><br>
-        <span style="font-style:normal;">(Legacy)</span> <a href="mailto:alex.miller.boston@gmail.com" style="color:#10244a;text-decoration:none;font-style:normal;">alex.miller.boston@gmail.com</a>
+        <img src="https://AlexanderFerrariMiller.com/images/signature-icons/email.svg" alt="Email" width="9" height="9" style="display:inline-block;width:9px;height:9px;border:0;vertical-align:-1px;margin-right:4px;"><a href="mailto:Alexander.Ferrari.Miller@gmail.com" style="color:#10244a;text-decoration:none;">Alexander.Ferrari.Miller@gmail.com</a><br>
+        <img src="https://AlexanderFerrariMiller.com/images/signature-icons/email.svg" alt="Email" width="9" height="9" style="display:inline-block;width:9px;height:9px;border:0;vertical-align:-1px;margin-right:4px;"><span style="font-style:normal;">(Legacy)</span> <a href="mailto:alex.miller.boston@gmail.com" style="color:#10244a;text-decoration:none;font-style:normal;">alex.miller.boston@gmail.com</a>
       </div>
     </td>
   </tr>
