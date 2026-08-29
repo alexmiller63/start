@@ -27,7 +27,7 @@ The address must remain on exactly these two lines:
 
 `(Legacy)` must appear immediately before the legacy email address and must not be italicized.
 
-For WhatsApp, the displayed phone number is plain text and must not be intentionally turned into a telephone link. The wa.me URL is the clickable WhatsApp link.
+The upper-right phone number is a `tel:` link for ordinary calling. For WhatsApp, the displayed phone number remains plain text and must not be intentionally turned into a telephone link. The wa.me URL is the clickable WhatsApp link.
 
 All visible social URLs must retain their full leading `https://`. Preserve the approved display line breaks below so long identifiers remain within their columns on mobile Gmail. The long identifier lines use 6.5px text where specified. TikTok remains lowercase. YouTube uses the verified capitalization shown below. LinkedIn, Snapchat, and X use the verified capitalization shown below.
 
@@ -49,7 +49,7 @@ The lower social section uses the full-color `*-email.png` assets stored in the 
       <div style="font-size:11px;line-height:1.5;">
         <img src="https://raw.githubusercontent.com/alexmiller63/start/main/images/address-email.png" alt="Address" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;">3549 North D Street<br>
         <span style="display:inline-block;width:17px;"></span>San Bernardino, CA 92405-2103<br>
-        <img src="https://raw.githubusercontent.com/alexmiller63/start/main/images/phone-email.png" alt="Phone" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;">+1 (323) 681-7588<br>
+        <img src="https://raw.githubusercontent.com/alexmiller63/start/main/images/phone-email.png" alt="Phone" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;"><a href="tel:+13236817588" style="color:#10244a;text-decoration:none;">+1 (323) 681-7588</a><br>
         <img src="https://raw.githubusercontent.com/alexmiller63/start/main/images/website-email.png" alt="Website" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;"><a href="https://AlexanderFerrariMiller.com" style="color:#10244a;text-decoration:none;">AlexanderFerrariMiller.com</a><br>
         <img src="https://raw.githubusercontent.com/alexmiller63/start/main/images/email-email.png" alt="Email" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;"><a href="mailto:Alexander.Ferrari.Miller@gmail.com" style="color:#10244a;text-decoration:none;">Alexander.Ferrari.Miller@gmail.com</a><br>
         <img src="https://raw.githubusercontent.com/alexmiller63/start/main/images/email-email.png" alt="Email" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;"><span style="font-style:normal;">(Legacy)</span> <a href="mailto:alex.miller.boston@gmail.com" style="color:#10244a;text-decoration:none;font-style:normal;">alex.miller.boston@gmail.com</a>
