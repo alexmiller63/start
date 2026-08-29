@@ -14,7 +14,7 @@ The approved signature has exactly three cells:
 2. Upper right: identity and contact information.
 3. Lower full width: social links, arranged 5 entries on the first row and 5 on the second row for mobile Gmail.
 
-The upper section is frozen except for explicitly approved changes. The upper-right contact block uses very tiny 9×9 px monochrome icons for address, phone, website, and both email lines. All five icons must be dark-mode safe: each icon asset must include its own opaque white circular or rounded-square background with a dark navy (#10244a) symbol, so the icon remains visible against both white and black Gmail backgrounds. Do not change its sizing, typography, line breaks, or spacing unless Alexander explicitly requests a change.
+The upper section is frozen except for explicitly approved changes. The upper-right contact block uses 13×13 px full-color icons for address, phone, website, and both email lines. All five icons must be dark-mode safe: each icon asset must include its own opaque white circular or rounded-square background so the colored symbol remains visible against both white and black Gmail backgrounds. Do not change its sizing, typography, line breaks, or spacing unless Alexander explicitly requests a change.
 
 The portrait must be Alexander's actual optimized Professional-page headshot:
 
@@ -47,12 +47,12 @@ The lower social section uses the full-color `*-email.png` assets stored in the 
       <div style="font-size:20px;font-weight:700;line-height:1.15;white-space:nowrap;margin:0 0 6px 0;">Alexander Ferrari Miller</div>
       <div style="font-size:11px;font-weight:700;line-height:1.35;margin:0 0 10px 0;">Professional of Many Hats • Scientist • Artist • Author • Problem Solver</div>
       <div style="font-size:11px;line-height:1.5;">
-        <img src="https://AlexanderFerrariMiller.com/images/signature-icons/address.svg" alt="Address" width="9" height="9" style="display:inline-block;width:9px;height:9px;border:0;vertical-align:-1px;margin-right:4px;">3549 North D Street<br>
-        <span style="display:inline-block;width:13px;"></span>San Bernardino, CA 92405-2103<br>
-        <img src="https://AlexanderFerrariMiller.com/images/signature-icons/phone.svg" alt="Phone" width="9" height="9" style="display:inline-block;width:9px;height:9px;border:0;vertical-align:-1px;margin-right:4px;">+1 (323) 681-7588<br>
-        <img src="https://AlexanderFerrariMiller.com/images/signature-icons/website.svg" alt="Website" width="9" height="9" style="display:inline-block;width:9px;height:9px;border:0;vertical-align:-1px;margin-right:4px;"><a href="https://AlexanderFerrariMiller.com" style="color:#10244a;text-decoration:none;">AlexanderFerrariMiller.com</a><br>
-        <img src="https://AlexanderFerrariMiller.com/images/signature-icons/email.svg" alt="Email" width="9" height="9" style="display:inline-block;width:9px;height:9px;border:0;vertical-align:-1px;margin-right:4px;"><a href="mailto:Alexander.Ferrari.Miller@gmail.com" style="color:#10244a;text-decoration:none;">Alexander.Ferrari.Miller@gmail.com</a><br>
-        <img src="https://AlexanderFerrariMiller.com/images/signature-icons/email.svg" alt="Email" width="9" height="9" style="display:inline-block;width:9px;height:9px;border:0;vertical-align:-1px;margin-right:4px;"><span style="font-style:normal;">(Legacy)</span> <a href="mailto:alex.miller.boston@gmail.com" style="color:#10244a;text-decoration:none;font-style:normal;">alex.miller.boston@gmail.com</a>
+        <img src="https://AlexanderFerrariMiller.com/images/signature-icons/address.svg" alt="Address" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;">3549 North D Street<br>
+        <span style="display:inline-block;width:17px;"></span>San Bernardino, CA 92405-2103<br>
+        <img src="https://AlexanderFerrariMiller.com/images/signature-icons/phone.svg" alt="Phone" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;">+1 (323) 681-7588<br>
+        <img src="https://AlexanderFerrariMiller.com/images/signature-icons/website.svg" alt="Website" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;"><a href="https://AlexanderFerrariMiller.com" style="color:#10244a;text-decoration:none;">AlexanderFerrariMiller.com</a><br>
+        <img src="https://AlexanderFerrariMiller.com/images/signature-icons/email.svg" alt="Email" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;"><a href="mailto:Alexander.Ferrari.Miller@gmail.com" style="color:#10244a;text-decoration:none;">Alexander.Ferrari.Miller@gmail.com</a><br>
+        <img src="https://AlexanderFerrariMiller.com/images/signature-icons/email.svg" alt="Email" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;"><span style="font-style:normal;">(Legacy)</span> <a href="mailto:alex.miller.boston@gmail.com" style="color:#10244a;text-decoration:none;font-style:normal;">alex.miller.boston@gmail.com</a>
       </div>
     </td>
   </tr>
@@ -83,7 +83,7 @@ The lower social section uses the full-color `*-email.png` assets stored in the 
 
 ### Contact icon asset requirement
 
-The HTML above intentionally references five 9×9 px icon placements: address, phone, website, primary email, and legacy email. The files at `images/signature-icons/address.svg`, `phone.svg`, `website.svg`, and `email.svg` on AlexanderFerrariMiller.com must render as dark navy symbols on their own opaque white circular or rounded-square backgrounds. The email asset is reused for both email lines. Transparent dark-only icons are not approved because they disappear in Gmail mobile dark mode.
+The HTML above intentionally references five 13×13 px icon placements: address, phone, website, primary email, and legacy email. The files at `images/signature-icons/address.svg`, `phone.svg`, `website.svg`, and `email.svg` on AlexanderFerrariMiller.com must render as full-color symbols on their own opaque white circular or rounded-square backgrounds. The email asset is reused for both email lines. Transparent icons without the white tile are not approved because they can disappear or lose contrast in Gmail mobile dark mode.
 
 ## Plain-text alternative
 
