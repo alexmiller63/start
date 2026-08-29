@@ -29,6 +29,8 @@ The address must remain on exactly these two lines:
 
 For WhatsApp, the displayed phone number is plain text and must not be intentionally turned into a telephone link. The wa.me URL is the clickable WhatsApp link.
 
+All visible social URLs must retain their full leading `https://`. Long identifiers such as `alexander.ferrari.miller` and `alexander-ferrari-miller` must not be broken inside a word; line breaks should occur before the identifier instead.
+
 Pearlsom is not yet included. Do not add `pearlsom.com` until Alexander explicitly says it is ready.
 
 ## Approved Gmail HTML implementation
@@ -54,19 +56,21 @@ Pearlsom is not yet included. Do not add `pearlsom.com` until Alexander explicit
   </tr>
   <tr>
     <td colspan="2" style="border-top:2px solid #10244a;padding-top:10px;">
-      <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;font-family:Arial,Helvetica,sans-serif;color:#10244a;font-size:8px;text-align:center;border-collapse:collapse;table-layout:fixed;">
+      <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;font-family:Arial,Helvetica,sans-serif;color:#10244a;font-size:7px;text-align:center;border-collapse:collapse;table-layout:fixed;">
         <tr>
-          <td width="20%" valign="top" style="padding:4px 2px;"><b>Facebook</b><br><a href="https://www.facebook.com/alexander.ferrari.miller" style="color:#10244a;text-decoration:none;word-break:normal;">facebook.com/<br>alexander.ferrari.miller</a></td>
-          <td width="20%" valign="top" style="padding:4px 2px;"><b>Instagram</b><br><a href="https://www.instagram.com/alexander.ferrari.miller/" style="color:#10244a;text-decoration:none;">instagram.com/<br>alexander.ferrari.miller</a></td>
-          <td width="20%" valign="top" style="padding:4px 2px;"><b>TikTok</b><br><a href="https://www.tiktok.com/@alexander.ferrari.miller" style="color:#10244a;text-decoration:none;">tiktok.com/<br>@alexander.ferrari.miller</a></td>
-          <td width="20%" valign="top" style="padding:4px 2px;"><b>YouTube</b><br><a href="https://www.youtube.com/@alexander-ferrari-miller" style="color:#10244a;text-decoration:none;">youtube.com/<br>@alexander-ferrari-miller</a></td>
-          <td width="20%" valign="top" style="padding:4px 2px;"><b>LinkedIn</b><br><a href="https://www.linkedin.com/in/alexander-ferrari-miller/" style="color:#10244a;text-decoration:none;">linkedin.com/in/<br>alexander-ferrari-miller</a></td>
+          <td width="20%" valign="top" style="padding:4px 1px;"><b style="font-size:8px;">Facebook</b><br><a href="https://www.facebook.com/alexander.ferrari.miller" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://www.facebook.com/</span><br><span style="white-space:nowrap;">alexander.ferrari.miller</span></a></td>
+          <td width="20%" valign="top" style="padding:4px 1px;"><b style="font-size:8px;">Instagram</b><br><a href="https://www.instagram.com/alexander.ferrari.miller/" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://www.instagram.com/</span><br><span style="white-space:nowrap;">alexander.ferrari.miller/</span></a></td>
+          <td width="20%" valign="top" style="padding:4px 1px;"><b style="font-size:8px;">TikTok</b><br><a href="https://www.tiktok.com/@alexander.ferrari.miller" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://www.tiktok.com/</span><br><span style="white-space:nowrap;">@alexander.ferrari.miller</span></a></td>
+          <td width="20%" valign="top" style="padding:4px 1px;"><b style="font-size:8px;">YouTube</b><br><a href="https://www.youtube.com/@alexander-ferrari-miller" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://www.youtube.com/</span><br><span style="white-space:nowrap;">@alexander-ferrari-miller</span></a></td>
+          <td width="20%" valign="top" style="padding:4px 1px;"><b style="font-size:8px;">LinkedIn</b><br><a href="https://www.linkedin.com/in/alexander-ferrari-miller/" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://www.linkedin.com/in/</span><br><span style="white-space:nowrap;">alexander-ferrari-miller/</span></a></td>
         </tr>
+      </table>
+      <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;font-family:Arial,Helvetica,sans-serif;color:#10244a;font-size:7px;text-align:center;border-collapse:collapse;table-layout:fixed;">
         <tr>
-          <td valign="top" style="padding:9px 2px 4px 2px;"><b>Snapchat</b><br><a href="https://www.snapchat.com/add/afmsanbern" style="color:#10244a;text-decoration:none;">snapchat.com/add/<br>afmsanbern</a></td>
-          <td valign="top" style="padding:9px 2px 4px 2px;"><b>X</b><br>@AFMSanBern<br><a href="https://x.com/afmsanbern" style="color:#10244a;text-decoration:none;white-space:nowrap;">x.com/afmsanbern</a></td>
-          <td colspan="2" valign="top" style="padding:9px 2px 4px 2px;"><b>WhatsApp</b><br><span style="white-space:nowrap;">+1 (323) 681-7588</span><br><a href="https://wa.me/13236817588" style="color:#10244a;text-decoration:none;white-space:nowrap;">wa.me/13236817588</a></td>
-          <td valign="top" style="padding:9px 2px 4px 2px;"><b>Zello</b><br>SantaAlex63<br><a href="https://zello.com/" style="color:#10244a;text-decoration:none;white-space:nowrap;">zello.com</a></td>
+          <td width="25%" valign="top" style="padding:9px 1px 4px 1px;"><b style="font-size:8px;">Snapchat</b><br><a href="https://www.snapchat.com/add/afmsanbern" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://www.snapchat.com/add/</span><br><span style="white-space:nowrap;">afmsanbern</span></a></td>
+          <td width="25%" valign="top" style="padding:9px 1px 4px 1px;"><b style="font-size:8px;">X</b><br><span style="white-space:nowrap;">@AFMSanBern</span><br><a href="https://x.com/afmsanbern" style="color:#10244a;text-decoration:none;white-space:nowrap;">https://x.com/afmsanbern</a></td>
+          <td width="25%" valign="top" style="padding:9px 1px 4px 1px;"><b style="font-size:8px;">WhatsApp</b><br><span style="white-space:nowrap;">+1 (323) 681-7588</span><br><a href="https://wa.me/13236817588" style="color:#10244a;text-decoration:none;white-space:nowrap;">https://wa.me/13236817588</a></td>
+          <td width="25%" valign="top" style="padding:9px 1px 4px 1px;"><b style="font-size:8px;">Zello</b><br><span style="white-space:nowrap;">SantaAlex63</span><br><a href="https://zello.com/" style="color:#10244a;text-decoration:none;white-space:nowrap;">https://zello.com/</a></td>
         </tr>
       </table>
     </td>
