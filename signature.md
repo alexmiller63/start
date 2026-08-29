@@ -47,12 +47,12 @@ The lower social section uses the full-color `*-email.png` assets stored in the 
       <div style="font-size:20px;font-weight:700;line-height:1.15;white-space:nowrap;margin:0 0 6px 0;">Alexander Ferrari Miller</div>
       <div style="font-size:11px;font-weight:700;line-height:1.35;margin:0 0 10px 0;">Professional of Many Hats • Scientist • Artist • Author • Problem Solver</div>
       <div style="font-size:11px;line-height:1.5;">
-        <img src="https://AlexanderFerrariMiller.com/images/signature-icons/address.svg" alt="Address" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;">3549 North D Street<br>
+        <img src="https://raw.githubusercontent.com/alexmiller63/start/main/images/address-email.png" alt="Address" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;">3549 North D Street<br>
         <span style="display:inline-block;width:17px;"></span>San Bernardino, CA 92405-2103<br>
-        <img src="https://AlexanderFerrariMiller.com/images/signature-icons/phone.svg" alt="Phone" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;">+1 (323) 681-7588<br>
-        <img src="https://AlexanderFerrariMiller.com/images/signature-icons/website.svg" alt="Website" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;"><a href="https://AlexanderFerrariMiller.com" style="color:#10244a;text-decoration:none;">AlexanderFerrariMiller.com</a><br>
-        <img src="https://AlexanderFerrariMiller.com/images/signature-icons/email.svg" alt="Email" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;"><a href="mailto:Alexander.Ferrari.Miller@gmail.com" style="color:#10244a;text-decoration:none;">Alexander.Ferrari.Miller@gmail.com</a><br>
-        <img src="https://AlexanderFerrariMiller.com/images/signature-icons/email.svg" alt="Email" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;"><span style="font-style:normal;">(Legacy)</span> <a href="mailto:alex.miller.boston@gmail.com" style="color:#10244a;text-decoration:none;font-style:normal;">alex.miller.boston@gmail.com</a>
+        <img src="https://raw.githubusercontent.com/alexmiller63/start/main/images/phone-email.png" alt="Phone" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;">+1 (323) 681-7588<br>
+        <img src="https://raw.githubusercontent.com/alexmiller63/start/main/images/website-email.png" alt="Website" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;"><a href="https://AlexanderFerrariMiller.com" style="color:#10244a;text-decoration:none;">AlexanderFerrariMiller.com</a><br>
+        <img src="https://raw.githubusercontent.com/alexmiller63/start/main/images/email-email.png" alt="Email" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;"><a href="mailto:Alexander.Ferrari.Miller@gmail.com" style="color:#10244a;text-decoration:none;">Alexander.Ferrari.Miller@gmail.com</a><br>
+        <img src="https://raw.githubusercontent.com/alexmiller63/start/main/images/email-email.png" alt="Email" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;"><span style="font-style:normal;">(Legacy)</span> <a href="mailto:alex.miller.boston@gmail.com" style="color:#10244a;text-decoration:none;font-style:normal;">alex.miller.boston@gmail.com</a>
       </div>
     </td>
   </tr>
@@ -83,7 +83,7 @@ The lower social section uses the full-color `*-email.png` assets stored in the 
 
 ### Contact icon asset requirement
 
-The HTML above intentionally references five 13×13 px icon placements: address, phone, website, primary email, and legacy email. The files at `images/signature-icons/address.svg`, `phone.svg`, `website.svg`, and `email.svg` on AlexanderFerrariMiller.com must render as full-color symbols on their own opaque white circular or rounded-square backgrounds. The email asset is reused for both email lines. Transparent icons without the white tile are not approved because they can disappear or lose contrast in Gmail mobile dark mode.
+The HTML above intentionally references five 13×13 px icon placements: address, phone, website, primary email, and legacy email. The approved email-safe files are `images/address-email.png`, `images/phone-email.png`, `images/website-email.png`, and `images/email-email.png` in the `start` repository. The email asset is reused for both email lines. Each file must preserve its full-color symbol and opaque white circular or rounded-square background. Transparent icons without the white tile are not approved because they can disappear or lose contrast in Gmail mobile dark mode.
 
 ## Plain-text alternative
 
