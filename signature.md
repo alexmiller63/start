@@ -1,13 +1,36 @@
 # Gmail Signature
 
-Use the HTML signature below for outgoing Gmail drafts created for Alexander Ferrari Miller unless Alexander explicitly instructs otherwise. Use normal Gmail rich/HTML-capable formatting with a plain-text alternative.
+## APPROVED DESIGN — SOURCE OF TRUTH
 
-The headshot is the optimized Professional-page image at:
+This file is the authoritative specification for Alexander Ferrari Miller's approved Gmail signature.
+
+**DO NOT redesign, reinterpret, restyle, or regenerate this signature.**
+
+When producing the signature, reproduce the approved design as faithfully as the target format permits. Do not generate a substitute portrait or an AI likeness. The portrait must be Alexander's actual optimized Professional-page headshot:
+
 `https://AlexanderFerrariMiller.com/images/Alexander-Ferrari-Miller-web.png`
+
+The approved visual design has these defining features:
+
+- Clean white horizontal signature card.
+- Alexander's actual headshot on the left.
+- Dark navy vertical divider between portrait and identity/contact information.
+- `Alexander Ferrari Miller` prominently displayed at upper right.
+- Tagline: `Professional of Many Hats • Scientist • Artist • Author • Problem Solver`.
+- Contact information directly beneath the tagline.
+- Dark navy horizontal divider above the social-media section.
+- Social-media links presented cleanly beneath the contact information in two columns/rows as space permits.
+- Dark navy/white professional visual treatment.
+- Decorative compass/starburst ornament used as a finishing element in the approved visual design.
+- Preserve balanced spacing and the business-card-like proportions of the approved mockup.
+
+For outgoing Gmail drafts, use normal Gmail rich/HTML-capable formatting with a plain-text alternative unless Alexander explicitly instructs otherwise.
 
 For WhatsApp, the displayed phone number is plain text and must not be turned into a telephone link. The wa.me URL is the clickable WhatsApp link.
 
-## HTML signature
+## HTML implementation
+
+The HTML below is an email-safe implementation of the approved design. It is an implementation of the design specification above, not permission to redesign it.
 
 ```html
 <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="font-family:Arial,Helvetica,sans-serif;color:#17233c;line-height:1.35;">
