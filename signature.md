@@ -29,7 +29,7 @@ The address must remain on exactly these two lines:
 
 For WhatsApp, the displayed phone number is plain text and must not be intentionally turned into a telephone link. The wa.me URL is the clickable WhatsApp link.
 
-All visible social URLs must retain their full leading `https://`. Preserve the approved display line breaks below so long identifiers remain within their columns on mobile Gmail. The long identifier lines use 6.5px text where specified. TikTok and YouTube remain lowercase. LinkedIn, Snapchat, and X use the verified capitalization shown below.
+All visible social URLs must retain their full leading `https://`. Preserve the approved display line breaks below so long identifiers remain within their columns on mobile Gmail. The long identifier lines use 6.5px text where specified. TikTok remains lowercase. YouTube uses the verified capitalization shown below. LinkedIn, Snapchat, and X use the verified capitalization shown below.
 
 Pearlsom is approved and is social/contact entry #1. Its visible layout is exactly five lines: `Pearlsom`, `(Beta)`, `https://`, `pearlsom.com/`, `Alexander.Ferrari.Miller`.
 
@@ -62,7 +62,7 @@ Pearlsom is approved and is social/contact entry #1. Its visible layout is exact
           <td width="20%" valign="top" style="padding:4px 1px;"><b style="font-size:8px;">Facebook</b><br><a href="https://www.facebook.com/Alexander.Ferrari.Miller" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://www.</span><br><span style="white-space:nowrap;">facebook.com/</span><br><span style="white-space:nowrap;font-size:6.5px;">Alexander.Ferrari.Miller</span></a></td>
           <td width="20%" valign="top" style="padding:4px 1px;"><b style="font-size:8px;">Instagram</b><br><a href="https://www.instagram.com/Alexander.Ferrari.Miller/" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://www.</span><br><span style="white-space:nowrap;">instagram.com/</span><br><span style="white-space:nowrap;font-size:6.5px;">Alexander.Ferrari.Miller/</span></a></td>
           <td width="20%" valign="top" style="padding:4px 1px;"><b style="font-size:8px;">TikTok</b><br><a href="https://www.tiktok.com/@alexander.ferrari.miller" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://www.</span><br><span style="white-space:nowrap;">tiktok.com/</span><br><span style="white-space:nowrap;font-size:6.5px;">@alexander.ferrari.miller</span></a></td>
-          <td width="20%" valign="top" style="padding:4px 1px;"><b style="font-size:8px;">YouTube</b><br><a href="https://www.youtube.com/@alexander-ferrari-miller" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://www.</span><br><span style="white-space:nowrap;">youtube.com/</span><br><span style="white-space:nowrap;font-size:6.5px;">@alexander-ferrari-miller</span></a></td>
+          <td width="20%" valign="top" style="padding:4px 1px;"><b style="font-size:8px;">YouTube</b><br><a href="https://www.youtube.com/@Alexander.Ferrari.Miller" style="color:#10244a;text-decoration:none;"><span style="white-space:nowrap;">https://www.</span><br><span style="white-space:nowrap;">youtube.com/</span><br><span style="white-space:nowrap;font-size:6.5px;">@Alexander.Ferrari.Miller</span></a></td>
         </tr>
       </table>
       <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;font-family:Arial,Helvetica,sans-serif;color:#10244a;font-size:7px;text-align:center;border-collapse:collapse;table-layout:fixed;">
@@ -97,7 +97,7 @@ Pearlsom (Beta): https://pearlsom.com/Alexander.Ferrari.Miller
 Facebook: https://www.facebook.com/Alexander.Ferrari.Miller
 Instagram: https://www.instagram.com/Alexander.Ferrari.Miller/
 TikTok: https://www.tiktok.com/@alexander.ferrari.miller
-YouTube: https://www.youtube.com/@alexander-ferrari-miller
+YouTube: https://www.youtube.com/@Alexander.Ferrari.Miller
 LinkedIn: https://www.linkedin.com/in/Alexander-Ferrari-Miller/
 Snapchat: https://www.snapchat.com/add/AFMSanBern
 X: @AFMSanBern
