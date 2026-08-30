@@ -1,41 +1,29 @@
 # Gmail Signature
 
-## APPROVED DESIGN — SOURCE OF TRUTH
+## VALIDATED KNOWN-GOOD BASELINE — August 29, 2026
 
-This file is the authoritative specification for Alexander Ferrari Miller's approved Gmail signature.
+This is the authoritative Gmail signature for Alexander Ferrari Miller.
 
-**DO NOT redesign, reinterpret, restyle, or regenerate this signature.**
+This signature was rebuilt incrementally from a known-good HTML control and validated in Gmail with all 14 links passing. Do not reintroduce HTML from `signature.bad`.
 
-For outgoing Gmail drafts, use normal Gmail rich/HTML-capable formatting with the plain-text alternative below unless Alexander explicitly instructs otherwise.
+## Required Gmail workarounds
 
-The approved signature has exactly three cells:
+1. The upper contact block uses `font-size:11px;line-height:16.5px;`. Do not replace the fixed `16.5px` line height with unitless `1.5`.
+2. The 5-column social tables use `table-layout:fixed`, but the individual social `<td>` elements must NOT have `width="20%"` attributes.
+3. Use explicit `font-size:11px` on upper contact anchors and `font-size:7px` on social anchors.
+4. When creating Gmail drafts programmatically, provide this as explicit raw HTML (`html_body`) with a plain-text fallback.
 
-1. Upper left: Alexander's actual optimized Professional-page headshot.
-2. Upper right: identity and contact information.
-3. Lower full width: social links, arranged 5 entries on the first row and 5 on the second row for mobile Gmail.
+## Approved closing
 
-The upper section is frozen except for explicitly approved changes. The upper-right contact block uses 13×13 px full-color icons for address, phone, website, and both email lines. All five icons must be dark-mode safe: each icon asset must include its own opaque white circular or rounded-square background so the colored symbol remains visible against both white and black Gmail backgrounds. Do not change its sizing, typography, line breaks, or spacing unless Alexander explicitly requests a change.
+```text
+Regards,
 
-The portrait must be Alexander's actual optimized Professional-page headshot:
+Alex Miller
+```
 
-`https://AlexanderFerrariMiller.com/images/Alexander-Ferrari-Miller-web.png`
+The graphical signature follows the closing.
 
-The address must remain on exactly these two lines:
-
-`3549 North D Street`  
-`San Bernardino, CA 92405-2103`
-
-`(Legacy)` must appear immediately before the legacy email address and must not be italicized.
-
-The upper-right phone number is a `tel:` link for ordinary calling. For WhatsApp, the displayed phone number remains plain text and must not be intentionally turned into a telephone link. The wa.me URL is the clickable WhatsApp link.
-
-All visible social URLs must retain their full leading `https://`. Preserve the approved display line breaks below so long identifiers remain within their columns on mobile Gmail. The long identifier lines use 6.5px text where specified. TikTok remains lowercase. YouTube uses the verified capitalization shown below. LinkedIn, Snapchat, and X use the verified capitalization shown below.
-
-Pearlsom is approved and is social/contact entry #1. Its visible layout is exactly five lines: `Pearlsom`, `(Beta)`, `https://`, `pearlsom.com/`, `Alexander.Ferrari.Miller`.
-
-The lower social section uses the full-color `*-email.png` assets stored in the `start` repository under `images/`. Each social icon is displayed at 20×20 px immediately to the left of the service name. The white tile is part of the image asset and must not be removed, recolored, masked, or replaced by CSS.
-
-## Approved Gmail HTML implementation
+## Validated graphical signature HTML
 
 ```html
 <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;max-width:600px;font-family:Arial,Helvetica,sans-serif;color:#10244a;border-collapse:collapse;table-layout:fixed;">
@@ -81,35 +69,6 @@ The lower social section uses the full-color `*-email.png` assets stored in the 
 </table>
 ```
 
-### Contact icon asset requirement
+## Validation record
 
-The HTML above intentionally references five 13×13 px icon placements: address, phone, website, primary email, and legacy email. The approved email-safe files are `images/address-email.png`, `images/phone-email.png`, `images/website-email.png`, and `images/email-email.png` in the `start` repository. The email asset is reused for both email lines. Each file must preserve its full-color symbol and opaque white circular or rounded-square background. Transparent icons without the white tile are not approved because they can disappear or lose contrast in Gmail mobile dark mode.
-
-## Plain-text alternative
-
-```text
-Regards,
-
-Alexander Ferrari Miller
-Professional of Many Hats • Scientist • Artist • Author • Problem Solver
-3549 North D Street
-San Bernardino, CA 92405-2103
-+1 (323) 681-7588
-https://AlexanderFerrariMiller.com
-Alexander.Ferrari.Miller@gmail.com
-(Legacy) alex.miller.boston@gmail.com
-
-Pearlsom (Beta): https://pearlsom.com/Alexander.Ferrari.Miller
-Facebook: https://www.facebook.com/Alexander.Ferrari.Miller
-Instagram: https://www.instagram.com/Alexander.Ferrari.Miller/
-TikTok: https://www.tiktok.com/@alexander.ferrari.miller
-YouTube: https://www.youtube.com/@Alexander.Ferrari.Miller
-LinkedIn: https://www.linkedin.com/in/Alexander-Ferrari-Miller/
-Snapchat: https://www.snapchat.com/add/AFMSanBern
-X: @AFMSanBern
-X: https://x.com/AFMSanBern
-WhatsApp: +1 (323) 681-7588
-WhatsApp: https://wa.me/13236817588
-Zello: SantaAlex63
-Zello: https://zello.com/
-```
+Validated incrementally in Gmail on August 29, 2026. Final AF test passed all 14 links with the exact approved icons and multi-line social presentation.
