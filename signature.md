@@ -1,36 +1,3 @@
-# Gmail Signature
-
-## VALIDATED KNOWN-GOOD BASELINE — AK — August 29, 2026
-
-This is the authoritative Gmail signature for Alexander Ferrari Miller.
-
-AK is the current production baseline. It was validated in Gmail with all 15 intended links functioning, including the Google Maps address link. Do not reintroduce HTML from `signature.bad`.
-
-## Required Gmail construction rules
-
-1. Build the complete Gmail HTML body in one pass. Do not append this signature as an isolated HTML fragment.
-2. Preserve the transition: ordinary message body → blank spacing → `Regards,` → blank spacing → `Alex Miller` → blank spacing → graphical signature table.
-3. When creating Gmail drafts programmatically, provide explicit raw HTML as `html_body` and also provide a plain-text fallback in `body`.
-4. The upper contact block uses `font-size:11px;line-height:16.5px;`. Do not replace the fixed `16.5px` line height with unitless `1.5`.
-5. The 5-column social tables use `table-layout:fixed`, but the individual social `<td>` elements must NOT have `width="20%"` attributes.
-6. Use explicit `font-size:11px` on upper contact anchors and `font-size:7px` on social anchors.
-7. Preserve visible underlining with `text-decoration:underline` on all anchors.
-8. Preserve the full 2-line postal address as one Google Maps hyperlink.
-9. Treat any change to this HTML as experimental until it passes an isolation test in Gmail.
-
-## Approved closing
-
-```text
-Regards,
-
-Alex Miller
-```
-
-The graphical signature follows the closing.
-
-## Validated graphical signature HTML — AK
-
-```html
 <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;max-width:600px;font-family:Arial,Helvetica,sans-serif;color:#10244a;border-collapse:collapse;table-layout:fixed;">
   <tr>
     <td width="90" valign="top" style="width:90px;padding:8px 12px 14px 0;text-align:center;">
@@ -71,8 +38,3 @@ The graphical signature follows the closing.
     </td>
   </tr>
 </table>
-```
-
-## Validation record
-
-Validated in Gmail on August 29, 2026. AK passed with the complete approved graphical presentation and all 15 intended links functioning: postal address, phone, website, 2 email addresses, and 10 social/service links.
