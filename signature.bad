@@ -1,0 +1,5 @@
+# Gmail Signature
+
+Archived bad signature.
+
+This file preserves the previous signature implementation that produced inconsistent Gmail link behavior during testing. Do not use it for outgoing mail. Git history preserves the complete previous contents at commit d8073f4c1ad5f5d31042f8ae4b9796087b837e66.
