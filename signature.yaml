@@ -1,0 +1,139 @@
+version: 1
+name: gmail_signature
+status: validated
+validated_at: 2026-08-29
+reference_test: AK
+purpose: >-
+  Teach Heather how to construct Gmail drafts so the approved graphical
+  signature remains reliable and clickable in Gmail web and sent mail.
+
+accounts:
+  sender:
+    email: alexander.ferrari.miller@gmail.com
+    role: primary
+  legacy_receiver:
+    email: alex.miller.boston@gmail.com
+    role: test_receiver
+  rules:
+    - Never send from the legacy account unless Alexander explicitly overrides this rule.
+    - For signature regression tests, send or draft from the primary account to the legacy account.
+
+production_rule:
+  description: >-
+    Do not append the graphical signature as an isolated reusable HTML fragment.
+    Construct the complete HTML message using the known-good AK insertion pattern.
+  html_sequence:
+    - ordinary_message_body
+    - blank_spacing
+    - closing_regards
+    - blank_spacing
+    - closing_name
+    - blank_spacing
+    - graphical_signature_table
+  closing:
+    regards: "Regards,"
+    name: "Alex Miller"
+  gmail_draft_requirements:
+    - Provide a plain-text body fallback.
+    - Provide the full rich message explicitly in html_body.
+    - Preserve the body-to-closing-to-signature structure used by AK.
+    - Do not rely on Gmail or Markdown conversion to reconstruct the signature HTML.
+
+signature_invariants:
+  upper_contact_block:
+    font_size: 11px
+    line_height: 16.5px
+    rules:
+      - Do not use unitless line-height 1.5 on the 11px parent contact block.
+      - Preserve explicit 11px font sizing on upper contact anchors.
+  social_tables:
+    columns_per_row: 5
+    rows: 2
+    rules:
+      - Do not add width="20%" to the social table cells.
+      - Preserve table-layout: fixed on the social tables.
+      - Preserve explicit social anchor font sizing of 7px unless a validated change replaces it.
+  anchors:
+    text_decoration: underline
+    rules:
+      - Preserve explicit href attributes.
+      - Preserve visible underlining unless a new isolated test validates a replacement.
+  address:
+    clickable: true
+    type: google_maps
+    text_lines:
+      - "3549 North D Street"
+      - "San Bernardino, CA 92405-2103"
+    href: "https://www.google.com/maps/search/?api=1&query=3549+North+D+Street%2C+San+Bernardino%2C+CA+92405-2103"
+  contact_links:
+    phone: "tel:+13236817588"
+    website: "https://AlexanderFerrariMiller.com"
+    primary_email: "mailto:Alexander.Ferrari.Miller@gmail.com"
+    legacy_email: "mailto:alex.miller.boston@gmail.com"
+  social_links:
+    pearlsom: "https://pearlsom.com/Alexander.Ferrari.Miller"
+    facebook: "https://www.facebook.com/Alexander.Ferrari.Miller"
+    instagram: "https://www.instagram.com/Alexander.Ferrari.Miller/"
+    tiktok: "https://www.tiktok.com/@alexander.ferrari.miller"
+    youtube: "https://www.youtube.com/@Alexander.Ferrari.Miller"
+    linkedin: "https://www.linkedin.com/in/Alexander-Ferrari-Miller/"
+    snapchat: "https://www.snapchat.com/add/AFMSanBern"
+    x: "https://x.com/AFMSanBern"
+    whatsapp: "https://wa.me/13236817588"
+    zello: "https://zello.com/"
+
+known_gmail_failures:
+  - id: upper_typography_unitless_line_height
+    fail_pattern: >-
+      Parent font-size:11px combined with unitless line-height:1.5 caused an
+      HTML anchor to become non-clickable in Gmail web UI.
+    passing_pattern: >-
+      Parent font-size:11px combined with line-height:16.5px.
+  - id: social_cell_percentage_widths
+    fail_pattern: >-
+      Five-column social rows with width="20%" on each td produced intermittent
+      non-clickable links in Gmail web UI.
+    passing_pattern: >-
+      Remove the td width="20%" attributes while keeping the table structure.
+  - id: isolated_signature_fragment
+    fail_pattern: >-
+      A graphical signature that looked equivalent could fail when inserted as
+      a standalone fragment or reconstructed through a different draft path.
+    passing_pattern: >-
+      Build the complete message using the known-good AK body, closing, spacing,
+      and signature transition.
+
+validation:
+  current_baseline:
+    test: AK
+    result: pass
+    confirmed_features:
+      - ordinary message body renders correctly
+      - graphical signature renders correctly
+      - hyperlinks function
+      - hyperlinks are visibly underlined
+      - postal address opens Google Maps
+  expected_explicit_links: 15
+  change_control:
+    - Freeze the AK structure for production use.
+    - Change only one variable at a time during isolation tests.
+    - Do not promote a change merely because the resulting draft looks equivalent.
+    - Require a passing Gmail draft test before updating the production baseline.
+    - Prefer testing representative links in both compose and sent views after structural changes.
+    - If a previously passing construction becomes unreliable, compare the actual raw MIME/HTML rather than assuming two drafts are equivalent.
+
+construction_template:
+  plain_text: |-
+    {message_body}
+
+    Regards,
+
+    Alex Miller
+
+  html_prefix: >-
+    Render {message_body} as ordinary block-level HTML, then preserve this exact
+    transition before the graphical signature: <div>Regards,</div><br><div>Alex Miller</div><br>
+  graphical_html_source: signature.md
+  rule: >-
+    signature.md contains the human-readable signature definition; signature.yaml
+    is the operational authority for how Heather must insert and validate it in Gmail.
