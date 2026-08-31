@@ -5,7 +5,7 @@
     </td>
     <td valign="top" style="border-left:2px solid #10244a;padding:0 0 14px 14px;">
       <div style="font-size:20px;font-weight:700;line-height:1.15;white-space:nowrap;margin:0 0 6px 0;">Alexander Ferrari Miller</div>
-      <div style="font-size:11px;font-weight:700;line-height:1.35;margin:0 0 10px 0;">Professional of Many Hats • Scientist • Artist • Author • Problem Solver</div>
+      <div style="font-size:11px;font-weight:700;line-height:1.35;margin:0 0 10px 0;">Scientist • Artist • Author • Problem Solver</div>
       <div style="font-size:11px;line-height:16.5px;">
         <img src="https://raw.githubusercontent.com/alexmiller63/start/main/images/address-email.png" alt="Address" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;"><a href="https://www.google.com/maps/search/?api=1&amp;query=3549+North+D+Street%2C+San+Bernardino%2C+CA+92405-2103" style="color:#10244a;text-decoration:underline;font-size:11px;">3549 North D Street<br><span style="display:inline-block;width:17px;"></span>San Bernardino, CA 92405-2103</a><br>
         <img src="https://raw.githubusercontent.com/alexmiller63/start/main/images/phone-email.png" alt="Phone" width="13" height="13" style="display:inline-block;width:13px;height:13px;border:0;vertical-align:-2px;margin-right:4px;"><a href="tel:+13236817588" style="color:#10244a;text-decoration:underline;font-size:11px;">+1 (323) 681-7588</a><br>
