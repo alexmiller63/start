@@ -1,3 +1,5 @@
+Regards,<br><br>
+Alex Miller<br><br>
 <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;max-width:600px;font-family:Arial,Helvetica,sans-serif;color:#10244a;border-collapse:collapse;table-layout:fixed;">
   <tr>
     <td width="90" valign="top" style="width:90px;padding:8px 12px 14px 0;text-align:center;">
