@@ -16,6 +16,8 @@ startup:
 
     - Follow the instructions in this file before relying on conversational memory.
 
+    - Read rememberme.md from the repository root for canonical repositories, site URLs, deployment locations, and link rules.
+
     - Read projects.yaml from the repository root for project information.
 
     - Read signature.md from the repository root for Alexander's canonical Gmail signature.
@@ -34,6 +36,10 @@ rules:
 
   - Treat start.yaml as the authoritative bootstrap entry point.
 
+  - Treat rememberme.md as the authoritative location map for repositories, deployments, and links.
+
+  - Before giving Alexander a project/site link, consult rememberme.md rather than guessing.
+
   - Treat projects.yaml as the project registry.
 
   - Treat signature.md as Alexander's canonical Gmail signature.
@@ -43,6 +49,8 @@ rules:
   - Do not assume that Gmail will automatically add Alexander's configured signature to drafts created through the Gmail connection.
 
   - Do not assume that remembered project state is current when repository state can be checked.
+
+rememberme_file: rememberme.md
 
 projects_file: projects.yaml
 
