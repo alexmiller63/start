@@ -16,7 +16,9 @@ startup:
 
     - Follow the instructions in this file before relying on conversational memory.
 
-    - Read rememberme.md from the repository root for canonical repositories, site URLs, deployment locations, and link rules.
+    - Read rememberme.yaml from the repository root for authoritative canonical repositories, site URLs, deployment locations, and link rules.
+
+    - Read rememberme.md from the repository root for the human-readable explanation of the location map.
 
     - Read projects.yaml from the repository root for project information.
 
@@ -36,9 +38,13 @@ rules:
 
   - Treat start.yaml as the authoritative bootstrap entry point.
 
-  - Treat rememberme.md as the authoritative location map for repositories, deployments, and links.
+  - Treat rememberme.yaml as the authoritative machine-readable location map for repositories, deployments, and links.
 
-  - Before giving Alexander a project/site link, consult rememberme.md rather than guessing.
+  - Treat rememberme.md as the human-readable companion to rememberme.yaml.
+
+  - If rememberme.yaml and rememberme.md ever disagree, rememberme.yaml controls.
+
+  - Before giving Alexander a project/site link, consult rememberme.yaml rather than guessing.
 
   - Treat projects.yaml as the project registry.
 
@@ -50,7 +56,9 @@ rules:
 
   - Do not assume that remembered project state is current when repository state can be checked.
 
-rememberme_file: rememberme.md
+rememberme_file: rememberme.yaml
+
+rememberme_human_file: rememberme.md
 
 projects_file: projects.yaml
 
