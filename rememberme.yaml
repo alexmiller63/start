@@ -1,0 +1,41 @@
+version: 1
+purpose: >
+  Authoritative machine-readable location map for Heather. Consult this file
+  before giving Alexander project, repository, deployment, or site links.
+
+authority:
+  canonical: true
+  human_readable_companion: rememberme.md
+
+bootstrap:
+  repository: alexmiller63/start
+  start_file: start.yaml
+  projects_file: projects.yaml
+  signature_file: signature.md
+  location_file: rememberme.yaml
+
+main_site:
+  repository: alexmiller63/AlexanderFerrariMiller.com
+  repository_url: https://github.com/alexmiller63/AlexanderFerrariMiller.com
+  pages_root: https://alexmiller63.github.io/AlexanderFerrariMiller.com/
+  live_root: https://alexanderferrarimiller.com/
+
+star_almanack:
+  canonical_deployment: main_site
+  live_landing: https://alexanderferrarimiller.com/star-almanack/
+  live_week_pattern: https://alexanderferrarimiller.com/almanack/YYYY/W##/
+  examples:
+    2026_W01: https://alexanderferrarimiller.com/almanack/2026/W01/
+  old_standalone_repository:
+    repository: alexmiller63/star-almanack
+    canonical_live_deployment: false
+    warning: >
+      Historical/standalone repository. Do not substitute it for the current
+      Almanack deployment and do not invent a GitHub Pages URL from it.
+
+link_rules:
+  - Determine whether Alexander wants the live site, GitHub Pages site, or a specific weekly Almanack page.
+  - Use only canonical URLs and documented patterns in this file.
+  - For weekly Almanack pages, use /almanack/YYYY/W##/ with the ISO week number.
+  - Never guess dated paths or substitute similarly named repositories.
+  - If repository or deployment state might have changed, verify it before answering.
